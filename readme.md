@@ -18,7 +18,7 @@ var NIR = require('numero-securitesociale');
 
 `
 NIR.parse(269054958815780);
-// { sex : 'F', yearBirth : 69, monthBirth : 05 }
+// { sex: 'F', foreigner: false, yearBirth: '69', monthBirth: '05', departement: '49', town: '588', birthOrder: '157', key: '80' }
 `
 
 ## License

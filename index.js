@@ -65,7 +65,9 @@ module.exports = {
             sex: exploitedNir.splice(0, 1)[0],
             yearBirth: exploitedNir.splice(0, 2).join(''),
             monthBirth: exploitedNir.splice(0, 2).join(''),
-            placeBirth: exploitedNir.splice(0, 5)
+            placeBirth: exploitedNir.splice(0, 5),
+            birthOrder: exploitedNir.splice(0, 3).join(''),
+            key: exploitedNir.splice(0, 2).join('')
         };
 
         result = {
@@ -74,7 +76,9 @@ module.exports = {
             yearBirth: parts.yearBirth,
             monthBirth: parts.monthBirth,
             departement: department(parts.placeBirth),
-            town: town(parts.placeBirth)
+            town: town(parts.placeBirth),
+            birthOrder: parts.birthOrder,
+            key: parts.key
         };
 
         return result;
