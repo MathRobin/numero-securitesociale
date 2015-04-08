@@ -36,6 +36,21 @@ function isForeigner(data) {
     return result;
 }
 
+function department(data) {
+    var departmentTmp = data.splice(0, 2).join(''),
+        result = departmentTmp;
+
+    if ('97' === departmentTmp) {
+        result = [departmentTmp, data.splice(0, 1)].join('');
+    }
+
+    return result;
+}
+
+function town(data) {
+    return data.splice(0, data.length).join('');
+}
+
 module.exports = {
     parse: function (NIR) {
         var exploitedNir = NIR,
@@ -49,14 +64,19 @@ module.exports = {
         parts = {
             sex: exploitedNir.splice(0, 1)[0],
             yearBirth: exploitedNir.splice(0, 2).join(''),
-            monthBirth: exploitedNir.splice(0, 2).join('')
+            monthBirth: exploitedNir.splice(0, 2).join(''),
+            placeBirth: exploitedNir.splice(0, 5)
         };
 
-        return result = {
+        result = {
             sex: sex(parts.sex),
             foreigner: isForeigner(parts.sex),
             yearBirth: parts.yearBirth,
-            monthBirth: parts.monthBirth
+            monthBirth: parts.monthBirth,
+            departement: department(parts.placeBirth),
+            town: town(parts.placeBirth)
         };
+
+        return result;
     }
 };
