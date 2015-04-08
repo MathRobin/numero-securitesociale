@@ -2,7 +2,7 @@
 
 var util = require('util');
 
-function sex(data) {
+function gender(data) {
     var result;
 
     switch (data) {
@@ -62,7 +62,7 @@ module.exports = {
         }
 
         parts = {
-            sex: exploitedNir.splice(0, 1)[0],
+            gender: exploitedNir.splice(0, 1)[0],
             yearBirth: exploitedNir.splice(0, 2).join(''),
             monthBirth: exploitedNir.splice(0, 2).join(''),
             placeBirth: exploitedNir.splice(0, 5),
@@ -71,8 +71,8 @@ module.exports = {
         };
 
         result = {
-            sex: sex(parts.sex),
-            foreigner: isForeigner(parts.sex),
+            gender: gender(parts.gender),
+            foreigner: isForeigner(parts.gender),
             yearBirth: parts.yearBirth,
             monthBirth: parts.monthBirth,
             departement: department(parts.placeBirth),
