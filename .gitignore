@@ -1,0 +1,32 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+# JetBrains IDEs'config
+.idea/
+# Apple thing
+.DS_Store/
+#Cloud9
+.c9/
+Atlassian thing
+atlassian-ide-plugin.xml
+
+# npm things
+node_modules/
+npm-debug.log
+
+# bower things
+bower_components/
+
+# Documentation
+doc/
+
+# Coverage folder
+coverage/
+
+# Quality report provided by plato
+plato/
+
+# Build files
+assets/css/
+assets/fonts/
+assets/js/

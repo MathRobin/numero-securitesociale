@@ -1,0 +1,24 @@
+{
+  "name": "numero-securitesociale",
+  "version": "1.0.0",
+  "subdomain": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mathrobin/numero-securitesociale.git"
+  },
+  "domains": [],
+  "scripts": {},
+  "engines": {
+    "node": ">=0.8.28"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "description": "Give some data about postcodes of France",
+  "bugs": {
+    "url": "https://github.com/mathrobin/numero-securitesociale/issues"
+  },
+  "homepage": "https://github.com/mathrobin/numero-securitesociale",
+  "main": "index.js",
+  "author": "MathRobin <mthrobin@gmail.com>",
+  "license": "MIT"
+}
