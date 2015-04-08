@@ -1,6 +1,6 @@
 {
   "name": "numero-securitesociale",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "subdomain": "",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   },
   "dependencies": {},
   "devDependencies": {},
-  "description": "Parseur de numéro de sécurité sociale (ou numéro d'inscription au répertoire des personnes physiques)",
+  "description": "Parseur de numéro de sécurité sociale",
   "bugs": {
     "url": "https://github.com/mathrobin/numero-securitesociale/issues"
   },

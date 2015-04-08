@@ -14,7 +14,7 @@ Parseur de numéro de sécurité sociale (ou numéro d'inscription au répertoir
 var NIR = require('numero-securitesociale');
 `
 
-### Search by code Insee (unique ID)
+### Parse
 
 `
 NIR.parse(269054958815780);
