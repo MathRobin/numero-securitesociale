@@ -1,6 +1,6 @@
 # numero-securitesociale
 
-Give some data about postcodes of France
+Parseur de numéro de sécurité sociale (ou numéro d'inscription au répertoire des personnes physiques)
 
 ## Setup
 
