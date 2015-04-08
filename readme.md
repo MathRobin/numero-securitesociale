@@ -4,7 +4,7 @@ Parseur de numéro de sécurité sociale (ou numéro d'inscription au répertoir
 
 ## Setup
 
-'npm i -S numero-securitesociale'
+`npm i -S numero-securitesociale`
 
 ## Usage
 
