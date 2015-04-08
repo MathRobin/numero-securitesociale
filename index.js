@@ -47,12 +47,16 @@ module.exports = {
         }
 
         parts = {
-            sex: exploitedNir.splice(0, 1)[0]
+            sex: exploitedNir.splice(0, 1)[0],
+            yearBirth: exploitedNir.splice(0, 2).join(''),
+            monthBirth: exploitedNir.splice(0, 2).join('')
         };
 
         return result = {
             sex: sex(parts.sex),
-            foreigner: isForeigner(parts.sex)
+            foreigner: isForeigner(parts.sex),
+            yearBirth: parts.yearBirth,
+            monthBirth: parts.monthBirth
         };
     }
 };
