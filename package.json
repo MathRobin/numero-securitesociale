@@ -7,18 +7,28 @@
     "url": "git://github.com/mathrobin/numero-securitesociale.git"
   },
   "domains": [],
-  "scripts": {},
+  "scripts": {
+    "test": "node ./node_modules/karma/bin/karma start karma.conf.js"
+  },
   "engines": {
-    "node": ">=0.8.28"
+    "node": "8.7.0",
+    "npm": "5.4.2"
   },
   "dependencies": {},
-  "devDependencies": {},
-  "description": "Parseur de numéro de sécurité sociale",
+  "devDependencies": {
+    "eslint": "4.11.0",
+    "jasmine-core": "2.8.0",
+    "jest-cli": "21.2.1",
+    "karma": "1.7.1",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-jasmine": "1.1.0"
+  },
+  "description": "Tool for social security number (NIR) in France.",
   "bugs": {
     "url": "https://github.com/mathrobin/numero-securitesociale/issues"
   },
   "homepage": "https://github.com/mathrobin/numero-securitesociale",
-  "main": "index.js",
+  "main": "index.mjs",
   "author": "MathRobin <mthrobin@gmail.com>",
   "license": "MIT"
 }

@@ -1,6 +1,6 @@
 # numero-securitesociale
 
-Parseur de numéro de sécurité sociale (ou numéro d'inscription au répertoire des personnes physiques)
+Tool for social security number in France.
 
 ## Setup
 
