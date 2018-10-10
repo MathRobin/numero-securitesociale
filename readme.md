@@ -1,5 +1,7 @@
 # numero-securitesociale
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MathRobin/numero-securitesociale.svg)](https://greenkeeper.io/)
+
 Parseur de numéro de sécurité sociale (ou numéro d'inscription au répertoire des personnes physiques)
 
 ## Setup
