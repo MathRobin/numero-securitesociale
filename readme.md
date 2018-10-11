@@ -1,4 +1,4 @@
-# numero-securitesociale [![Build Status](https://travis-ci.org/MathRobin/numero-securitesociale.svg)](https://travis-ci.org/MathRobin/numero-securitesociale) [![Greenkeeper badge](https://badges.greenkeeper.io/MathRobin/numero-securitesociale.svg)](https://greenkeeper.io/)
+# numero-securitesociale [![npm version](https://badge.fury.io/js/numero-securitesociale.svg)](https://badge.fury.io/js/numero-securitesociale) [![Build Status](https://travis-ci.org/MathRobin/numero-securitesociale.svg)](https://travis-ci.org/MathRobin/numero-securitesociale) [![Greenkeeper badge](https://badges.greenkeeper.io/MathRobin/numero-securitesociale.svg)](https://greenkeeper.io/)
 
 Parseur de numéro de sécurité sociale (ou numéro d'inscription au répertoire des personnes physiques)
 
