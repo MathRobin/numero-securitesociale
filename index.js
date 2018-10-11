@@ -6,14 +6,14 @@ function gender(data) {
     var result;
 
     switch (data) {
-    case '1' :
-    case '3' :
-        result = 'M';
-        break;
-    case '2' :
-    case '4' :
-        result = 'F';
-        break;
+        case '1' :
+        case '3' :
+            result = 'M';
+            break;
+        case '2' :
+        case '4' :
+            result = 'F';
+            break;
     }
 
     return result;
@@ -23,14 +23,14 @@ function isForeigner(data) {
     var result;
 
     switch (data) {
-    case '1' :
-    case '2' :
-        result = false;
-        break;
-    case '3' :
-    case '4' :
-        result = true;
-        break;
+        case '1' :
+        case '2' :
+            result = false;
+            break;
+        case '3' :
+        case '4' :
+            result = true;
+            break;
     }
 
     return result;
