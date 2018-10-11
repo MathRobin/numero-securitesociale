@@ -31,6 +31,28 @@ describe('numeroSecuriteSociale', function () {
                 birthOrder: '027',
                 key: '22'
             });
+
+            expect(testedThing.parse(269054958815780)).toEqual({
+                gender: 'F',
+                foreigner: false,
+                yearBirth: '69',
+                monthBirth: '05',
+                departement: '49',
+                town: '588',
+                birthOrder: '157',
+                key: '80'
+            });
+
+            expect(testedThing.parse(494019717426301)).toEqual({
+                gender: 'F',
+                foreigner: true,
+                yearBirth: '94',
+                monthBirth: '01',
+                departement: '971',
+                town: '74',
+                birthOrder: '263',
+                key: '01'
+            });
         });
     });
 });
