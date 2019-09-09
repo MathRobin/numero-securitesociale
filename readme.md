@@ -5,7 +5,7 @@ Parseur de numéro de sécurité sociale (ou numéro d'inscription au répertoir
 
 ## Setup
 
-`npm i -S numero-securitesociale`
+`npm i -SE numero-securitesociale`
 
 ## Usage
 
@@ -30,7 +30,7 @@ NIR.parse(269054958815780);
 - monthBirth : string, the month of birth
 - department : string, the department where the person is borned. If it's 99, it borns abroad
 - town : string, the code of the town where the person is borned. If it's born abroad, the code of the country
-- borthOrder : string, the order of born in the month, in the department and in the town
+- birthOrder : string, the order of born in the month, in the department and in the town
 - key : string, a sort of checksum for all 
 
 ## License
