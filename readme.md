@@ -8,6 +8,8 @@ Parseur de numéro de sécurité sociale (ou numéro d'inscription au répertoir
 ## Setup
 
 `npm i -SE numero-securitesociale`
+or Yarn
+`yarn add numero-securitesociale`
 
 ## Usage
 
