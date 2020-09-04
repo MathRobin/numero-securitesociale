@@ -1,5 +1,5 @@
 # numero-securitesociale
-[![npm version](https://badge.fury.io/js/numero-securitesociale.svg)](https://badge.fury.io/js/numero-securitesociale) [![NpmLicense](https://img.shields.io/npm/l/numero-securitesociale.svg?style=popout)](https://github.com/MathRobin/numero-securitesociale/blob/master/LICENSE) [![Build Status](https://travis-ci.org/MathRobin/numero-securitesociale.svg)](https://travis-ci.org/MathRobin/numero-securitesociale) [![Greenkeeper badge](https://badges.greenkeeper.io/MathRobin/numero-securitesociale.svg)](https://greenkeeper.io/)
+[![NpmLicense](https://img.shields.io/npm/l/numero-securitesociale.svg?style=popout)](https://github.com/MathRobin/numero-securitesociale/blob/master/LICENSE) [![Build Status](https://travis-ci.org/MathRobin/numero-securitesociale.svg)](https://travis-ci.org/MathRobin/numero-securitesociale)
 
 ![](https://github.com/MathRobin/numero-securitesociale/workflows/tests/badge.svg)
 
