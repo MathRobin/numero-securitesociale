@@ -16,7 +16,7 @@
     "testRegex": "\\.specs\\.js$"
   },
   "engines": {
-    "node": "14"
+    "node": "18"
   },
   "devDependencies": {
     "eslint": "^7.8.1",
