@@ -1,0 +1,37 @@
+name: test
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        version: [18, 20]
+    steps:
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.version }}
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set Timezone
+        uses: szenius/set-timezone@v1.2
+        with:
+          timezoneLinux: Europe/Paris
+      - name: System info
+        run: |
+          echo "node"
+          node -v
+          echo "npm"
+          npm -v
+          echo "yarn"
+          yarn -v
+          echo "yarn enableImmutableInstalls"
+          yarn config get enableImmutableInstalls
+      - name: Allow modify yarn.lock
+        run: yarn config set -H enableImmutableInstalls false
+      - name: Install modules
+        run: yarn install
+      - name: Run lint task
+        run: yarn lint
+      - name: Run tests
+        run: yarn test

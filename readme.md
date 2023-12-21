@@ -1,4 +1,5 @@
 # numero-securitesociale
+
 [![NpmLicense](https://img.shields.io/npm/l/numero-securitesociale.svg?style=popout)](https://github.com/MathRobin/numero-securitesociale/blob/master/LICENSE) [![Build Status](https://travis-ci.org/MathRobin/numero-securitesociale.svg)](https://travis-ci.org/MathRobin/numero-securitesociale)
 
 ![](https://github.com/MathRobin/numero-securitesociale/workflows/tests/badge.svg)
@@ -13,18 +14,23 @@ or Yarn
 
 ## Usage
 
-### Include package
+```javascript
+import {parse} from 'numero-securitesociale';
 
-`
-var NIR = require('numero-securitesociale');
-`
-
-### Parse
-
-`
-NIR.parse(269054958815780);
-// { gender: 'F', foreigner: false, yearBirth: '69', monthBirth: '05', departement: '49', town: '588', birthOrder: '157', key: '80' }
-`
+parse(269054958815780);
+/**
+{ 
+  gender: 'F',
+  foreigner: false,
+  yearBirth: '69',
+  monthBirth: '05',
+  departement: '49',
+  town: '588',
+  birthOrder: '157',
+  key: '80'
+} 
+  */
+```
 
 #### Description :
 
@@ -35,7 +41,7 @@ NIR.parse(269054958815780);
 - department : string, the department where the person is borned. If it's 99, it borns abroad
 - town : string, the code of the town where the person is borned. If it's born abroad, the code of the country
 - birthOrder : string, the order of born in the month, in the department and in the town
-- key : string, a sort of checksum for all 
+- key : string, a sort of checksum for all
 
 ## License
 

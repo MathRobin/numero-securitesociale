@@ -1,0 +1,20 @@
+# GENERATED FILE - Do not edit manually
+env:
+  node: true
+  es2023: true
+  jest/globals: true
+plugins:
+  - jest
+  - json
+extends:
+  - eslint:recommended
+  - prettier
+  - plugin:json/recommended
+parserOptions:
+  ecmaVersion: 2022
+  sourceType: module
+  requireConfigFile: false
+  babelOptions:
+    plugins:
+      - '@babel/plugin-syntax-import-assertions'
+parser: '@babel/eslint-parser'
