@@ -33,13 +33,13 @@ __metadata:
   linkType: hard
 
 "@babel/compat-data@npm:^7.23.5":
-  version: 7.24.1
-  resolution: "@babel/compat-data@npm:7.24.1"
-  checksum: 10c0/8a1935450345c326b14ea632174696566ef9b353bd0d6fb682456c0774342eeee7654877ced410f24a731d386fdcbf980b75083fc764964d6f816b65792af2f5
+  version: 7.24.4
+  resolution: "@babel/compat-data@npm:7.24.4"
+  checksum: 10c0/9cd8a9cd28a5ca6db5d0e27417d609f95a8762b655e8c9c97fd2de08997043ae99f0139007083c5e607601c6122e8432c85fe391731b19bf26ad458fa0c60dd3
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.24.4":
+"@babel/core@npm:7.24.4, @babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.23.9":
   version: 7.24.4
   resolution: "@babel/core@npm:7.24.4"
   dependencies:
@@ -62,29 +62,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.23.9":
-  version: 7.24.3
-  resolution: "@babel/core@npm:7.24.3"
-  dependencies:
-    "@ampproject/remapping": "npm:^2.2.0"
-    "@babel/code-frame": "npm:^7.24.2"
-    "@babel/generator": "npm:^7.24.1"
-    "@babel/helper-compilation-targets": "npm:^7.23.6"
-    "@babel/helper-module-transforms": "npm:^7.23.3"
-    "@babel/helpers": "npm:^7.24.1"
-    "@babel/parser": "npm:^7.24.1"
-    "@babel/template": "npm:^7.24.0"
-    "@babel/traverse": "npm:^7.24.1"
-    "@babel/types": "npm:^7.24.0"
-    convert-source-map: "npm:^2.0.0"
-    debug: "npm:^4.1.0"
-    gensync: "npm:^1.0.0-beta.2"
-    json5: "npm:^2.2.3"
-    semver: "npm:^6.3.1"
-  checksum: 10c0/e6e756b6de27d0312514a005688fa1915c521ad4269a388913eff2120a546538078f8488d6d16e86f851872f263cb45a6bbae08738297afb9382600d2ac342a9
-  languageName: node
-  linkType: hard
-
 "@babel/eslint-parser@npm:7.24.1":
   version: 7.24.1
   resolution: "@babel/eslint-parser@npm:7.24.1"
@@ -99,19 +76,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/generator@npm:^7.24.1, @babel/generator@npm:^7.7.2":
-  version: 7.24.1
-  resolution: "@babel/generator@npm:7.24.1"
-  dependencies:
-    "@babel/types": "npm:^7.24.0"
-    "@jridgewell/gen-mapping": "npm:^0.3.5"
-    "@jridgewell/trace-mapping": "npm:^0.3.25"
-    jsesc: "npm:^2.5.1"
-  checksum: 10c0/f0eea7497657cdf68cfb4b7d181588e1498eefd1f303d73b0d8ca9b21a6db27136a6f5beb8f988b6bdcd4249870826080950450fd310951de42ecf36df274881
-  languageName: node
-  linkType: hard
-
-"@babel/generator@npm:^7.24.4":
+"@babel/generator@npm:^7.24.1, @babel/generator@npm:^7.24.4, @babel/generator@npm:^7.7.2":
   version: 7.24.4
   resolution: "@babel/generator@npm:7.24.4"
   dependencies:
@@ -232,17 +197,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helpers@npm:^7.24.1":
-  version: 7.24.1
-  resolution: "@babel/helpers@npm:7.24.1"
-  dependencies:
-    "@babel/template": "npm:^7.24.0"
-    "@babel/traverse": "npm:^7.24.1"
-    "@babel/types": "npm:^7.24.0"
-  checksum: 10c0/b3445860ae749fc664682b291f092285e949114e8336784ae29f88eb4c176279b01cc6740005a017a0389ae4b4e928d5bbbc01de7da7e400c972e3d6f792063a
-  languageName: node
-  linkType: hard
-
 "@babel/helpers@npm:^7.24.4":
   version: 7.24.4
   resolution: "@babel/helpers@npm:7.24.4"
@@ -266,16 +220,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.14.7, @babel/parser@npm:^7.20.7, @babel/parser@npm:^7.23.9, @babel/parser@npm:^7.24.0, @babel/parser@npm:^7.24.1":
-  version: 7.24.1
-  resolution: "@babel/parser@npm:7.24.1"
-  bin:
-    parser: ./bin/babel-parser.js
-  checksum: 10c0/d2a8b99aa5f33182b69d5569367403a40e7c027ae3b03a1f81fd8ac9b06ceb85b31f6ee4267fb90726dc2ac99909c6bdaa9cf16c379efab73d8dfe85cee32c50
-  languageName: node
-  linkType: hard
-
-"@babel/parser@npm:^7.24.4":
+"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.14.7, @babel/parser@npm:^7.20.7, @babel/parser@npm:^7.23.9, @babel/parser@npm:^7.24.0, @babel/parser@npm:^7.24.1, @babel/parser@npm:^7.24.4":
   version: 7.24.4
   resolution: "@babel/parser@npm:7.24.4"
   bin:
@@ -749,9 +694,9 @@ __metadata:
   linkType: hard
 
 "@humanwhocodes/object-schema@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "@humanwhocodes/object-schema@npm:2.0.2"
-  checksum: 10c0/6fd83dc320231d71c4541d0244051df61f301817e9f9da9fd4cb7e44ec8aacbde5958c1665b0c419401ab935114fdf532a6ad5d4e7294b1af2f347dd91a6983f
+  version: 2.0.3
+  resolution: "@humanwhocodes/object-schema@npm:2.0.3"
+  checksum: 10c0/80520eabbfc2d32fe195a93557cef50dfe8c8905de447f022675aaf66abc33ae54098f5ea78548d925aa671cd4ab7c7daa5ad704fe42358c9b5e7db60f80696c
   languageName: node
   linkType: hard
 
@@ -1098,15 +1043,15 @@ __metadata:
   linkType: hard
 
 "@npmcli/agent@npm:^2.0.0":
-  version: 2.2.1
-  resolution: "@npmcli/agent@npm:2.2.1"
+  version: 2.2.2
+  resolution: "@npmcli/agent@npm:2.2.2"
   dependencies:
     agent-base: "npm:^7.1.0"
     http-proxy-agent: "npm:^7.0.0"
     https-proxy-agent: "npm:^7.0.1"
     lru-cache: "npm:^10.0.1"
-    socks-proxy-agent: "npm:^8.0.1"
-  checksum: 10c0/38ee5cbe8f3cde13be916e717bfc54fd1a7605c07af056369ff894e244c221e0b56b08ca5213457477f9bc15bca9e729d51a4788829b5c3cf296b3c996147f76
+    socks-proxy-agent: "npm:^8.0.3"
+  checksum: 10c0/325e0db7b287d4154ecd164c0815c08007abfb07653cc57bceded17bb7fd240998a3cbdbe87d700e30bef494885eccc725ab73b668020811d56623d145b524ae
   languageName: node
   linkType: hard
 
@@ -1253,11 +1198,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 20.12.2
-  resolution: "@types/node@npm:20.12.2"
+  version: 20.12.5
+  resolution: "@types/node@npm:20.12.5"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/bb47d115a8f95aadebdd6403fee16d149d6b5568ad53bacc42df34c2d572561e36ba47b05f7f68bada43752d7369b470a90df65b646af7502dfb799a21b4fca7
+  checksum: 10c0/2da65516fba98f0417620e42bddbe53e144d4782d69cd37f99df2537c6850b9cfbdb8a017f02c61e9a074bcac84f9f3f221b250474ac8c6b95d507a47e8d53f9
   languageName: node
   linkType: hard
 
@@ -1768,9 +1713,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001587":
-  version: 1.0.30001603
-  resolution: "caniuse-lite@npm:1.0.30001603"
-  checksum: 10c0/6564da28297a64e88302ddab0768fa72ff383213dd9c02bd113d14eeb22ba30fd00bc171bdbf4f6ff1159c138ed3b37ecc952f172d5153d6ab6118c572992374
+  version: 1.0.30001606
+  resolution: "caniuse-lite@npm:1.0.30001606"
+  checksum: 10c0/fc9816f7d073e4f655c00acf9d6625f923e722430545b0aabefb9dc01347f3093608eb18841cf981acbd464fcac918a708908549738a8cd9517a14ac005bf8fc
   languageName: node
   linkType: hard
 
@@ -2253,9 +2198,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.668":
-  version: 1.4.722
-  resolution: "electron-to-chromium@npm:1.4.722"
-  checksum: 10c0/6f1ebe00b6d8a4d122ee364dbf6c03772b9e141eac8a9456ee28a49e5b168ee64c0bb2608b90284a158f46caf912335360c5adbfd0e77271aff4e73279f34b84
+  version: 1.4.729
+  resolution: "electron-to-chromium@npm:1.4.729"
+  checksum: 10c0/9f093b873a5e02da5fd5db5a1038c3a3f84bd43ff6d0e894280848717e5892953cc814a4ddf1de2acbfa9af4fe356c714f036f39b82d52bc6c8c3aed6e97fbde
   languageName: node
   linkType: hard
 
@@ -5243,7 +5188,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"socks-proxy-agent@npm:^8.0.1":
+"socks-proxy-agent@npm:^8.0.3":
   version: 8.0.3
   resolution: "socks-proxy-agent@npm:8.0.3"
   dependencies:
