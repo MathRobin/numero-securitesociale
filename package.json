@@ -26,7 +26,7 @@
     "test": "yarn node --experimental-vm-modules $(yarn bin jest) --runInBand --config jest.config.js"
   },
   "engines": {
-    "node": "20.12.0"
+    "node": "20.12.1"
   },
   "config": {
     "commitizen": {
@@ -39,7 +39,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "7.24.3",
+    "@babel/core": "7.24.4",
     "@babel/eslint-parser": "7.24.1",
     "@babel/plugin-syntax-import-assertions": "7.24.1",
     "@commitlint/cli": "19.2.1",
