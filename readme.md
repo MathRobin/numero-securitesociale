@@ -15,7 +15,7 @@ or Yarn
 ## Usage
 
 ```javascript
-import {parse} from 'numero-securitesociale';
+import { parse } from 'numero-securitesociale';
 
 parse(269054958815780);
 /**
