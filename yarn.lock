@@ -2288,13 +2288,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-json@npm:3.1.0":
-  version: 3.1.0
-  resolution: "eslint-plugin-json@npm:3.1.0"
+"eslint-plugin-json@npm:4.0.1":
+  version: 4.0.1
+  resolution: "eslint-plugin-json@npm:4.0.1"
   dependencies:
     lodash: "npm:^4.17.21"
     vscode-json-languageservice: "npm:^4.1.6"
-  checksum: 10c0/7b253b398417afa7c2fe3771398c1f118443b12f4af19b679336cd77692efbe333dd0eaaa2a900c76dad471533873aca261fbfa38c8af6e9eb890c0b87f3015c
+  checksum: 10c0/9eb37d8f306180b194073af91a62a24afac9a4b805c7e685524c792bb6550ad9362f84ee226553e9f5099a56238f0697ae8a85d4e39bb2e12fdccbccd77669e0
   languageName: node
   linkType: hard
 
@@ -4523,7 +4523,7 @@ __metadata:
     eslint: "npm:9.2.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-jest: "npm:28.5.0"
-    eslint-plugin-json: "npm:3.1.0"
+    eslint-plugin-json: "npm:4.0.1"
     globals: "npm:15.2.0"
     husky: "npm:9.0.11"
     jest: "npm:29.7.0"
