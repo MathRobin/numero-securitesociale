@@ -1,3 +1,5 @@
+/!\ not maintained /!\
+
 # numero-securitesociale
 
 [![NpmLicense](https://img.shields.io/npm/l/numero-securitesociale.svg?style=popout)](https://github.com/MathRobin/numero-securitesociale/blob/master/LICENSE) [![Build Status](https://travis-ci.org/MathRobin/numero-securitesociale.svg)](https://travis-ci.org/MathRobin/numero-securitesociale)
